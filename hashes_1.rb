@@ -120,19 +120,19 @@ emails = [
   },
   {
     "sender" => "Jennifer Halloran",
-  "recipient" => "Richard Halloran",
-  "subject" => "RE: Pictures from last weekend",
-  "timestamp" => "7:54 AM",
-  "date" => "03/08/2022",
-  "message" => "Hey Dad, of course! Check out the attachments. There is a great one of you fishing!"
+    "recipient" => "Richard Halloran",
+    "subject" => "RE: Pictures from last weekend",
+    "timestamp" => "7:54 AM",
+    "date" => "03/08/2022",
+    "message" => "Hey Dad, of course! Check out the attachments. There is a great one of you fishing!"
   },
   {
-  "sender" => "Eloise Winchester",
-  "recipient" => "Mariead Moore",
-  "subject" => "Meeting This Monday",
-  "timestamp" => "5:14 PM",
-  "date" => "03/02/2022",
-  "message" => "Hey Eloise, I wanted to let you know that the meeting on Monday has been moved to 4PM. There will be doughnuts! See you then!"
+    "sender" => "Eloise Winchester",
+    "recipient" => "Mariead Moore",
+    "subject" => "Meeting This Monday",
+    "timestamp" => "5:14 PM",
+    "date" => "03/02/2022",
+    "message" => "Hey Eloise, I wanted to let you know that the meeting on Monday has been moved to 4PM. There will be doughnuts! See you then!"
   }
 ]
 p emails
