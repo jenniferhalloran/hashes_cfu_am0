@@ -1,32 +1,34 @@
 
-Activity:
 
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your Terminal:
 # `ruby hashes_1.rb`
 
+
 foods = {"apples": 23, "grapes": 507, "eggs": 48}
-p zoo
+p foods
 
 # Write code that prints all of the 'keys' of the foods variable
 # you created above:
 # YOUR CODE HERE
-
+p foods.keys
 
 # Write code that prints all of the 'values' of the foods variable
 # you created above:
 # YOUR CODE HERE
-
+p foods.values
 
 # Write code that prints the value of the second food of the foods variable
 # you created above:
 # YOUR CODE HERE
-
+p foods.values[1]
 
 # Write code that adds a food to the foods hash.
 # Then, print the updated hash:
 # YOUR CODE HERE
+foods["oranges"] = 101
+p foods
 
 
 #-------------------
@@ -43,14 +45,25 @@ p zoo
 # Write code that prints your email hash to the terminal.
 
 
+email = {
+  "sender" => "Richard Halloran",
+  "recipient" => "Jennifer Halloran",
+  "subject" => "Pictures from last weekend",
+  "timestamp" => "7:04 AM",
+  "date" => "03/08/2022",
+  "message" => "Hey! I know you took a bunch of pictures from during the camping trip last weekend, could you send them to me? Thanks!"
+}
+p email
+
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
 # YOUR CODE HERE
+p email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 # YOUR CODE HERE
-
+p email.values
 
 #-------------------
 # Part 3: Many Emails - CHALLENGE!
@@ -96,7 +109,33 @@ p posts[0]
 # a bit daunting - it's OK! You don't need to be 100% comfortable with this, but it's
 # good to have some exposure before going into Mod 1.
 
-
+emails = [
+  {
+    "sender" => "Richard Halloran",
+    "recipient" => "Jennifer Halloran",
+    "subject" => "Pictures from last weekend",
+    "timestamp" => "7:04 AM",
+    "date" => "03/08/2022",
+    "message" => "Hey! I know you took a bunch of pictures from during the camping trip last weekend, could you send them to me? Thanks!"
+  },
+  {
+    "sender" => "Jennifer Halloran",
+  "recipient" => "Richard Halloran",
+  "subject" => "RE: Pictures from last weekend",
+  "timestamp" => "7:54 AM",
+  "date" => "03/08/2022",
+  "message" => "Hey Dad, of course! Check out the attachments. There is a great one of you fishing!"
+  },
+  {
+  "sender" => "Eloise Winchester",
+  "recipient" => "Mariead Moore",
+  "subject" => "Meeting This Monday",
+  "timestamp" => "5:14 PM",
+  "date" => "03/02/2022",
+  "message" => "Hey Eloise, I wanted to let you know that the meeting on Monday has been moved to 4PM. There will be doughnuts! See you then!"
+  }
+]
+p emails
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
